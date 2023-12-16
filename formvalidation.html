@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./formvalidation.css">
+</head>
+<body>
+    <section class="container">
+        <form action="" id="formRegister">
+            <label for="Username">Username</label>
+            <input type="text" placeholder="username" id="username">
+            <p id="usernameError" class="error"></p>
+
+            <label for="email">Email</label>
+            <input type="email" placeholder="enter your email" id="email">
+            <p id="emailError" class="error"></p>
+
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password" id="password">
+            <p id="passwordError" class="error"></p>
+
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" placeholder="Confirm Password" id="confirmPassword">
+            <p id="confirmPasswordError" class="error"></p>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <script src="./formvalidation.js"></script>
+</body>
+</html>
